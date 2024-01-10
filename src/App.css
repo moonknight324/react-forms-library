@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: white;
+  background-color: grey;
+  font-family: cursive;
+}
+
+.success {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.inp {
+  width: 90%;
+  border-radius: 6px;
+  background-color: rgb(50, 47, 47);
+  color: white;
+  height: 35px;
+}
+.box {
+  border: 1px solid black;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 630px;
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+}
+.register {
+  padding: 10px;
+  width: 130px;
+  border-radius: 13px;
+  color: white;
+  background-color: rgb(50, 47, 47);
+}
+
+.errors {
+  color: rgb(255, 75, 75);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.label {
+  text-align: left;
+}
